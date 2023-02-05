@@ -1,0 +1,128 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 9%, rgba(253,29,29,1) 67%, rgba(252,176,69,1) 100%);
+}
+#content{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+#content h1{
+    color: blanchedalmond;
+    text-align: center;
+    margin: 0;
+    font-weight: 800;
+}
+#content p{
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10vh;
+}
+#content h3{
+    font-size: 1rem;
+    text-align: center;
+    width: fit-content;
+    margin: 5rem auto 30px;
+    padding: 4px 10px 4px 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+}
+#content button{
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 10rem ;
+    position: absolute ;
+    padding: 10px;
+    width: fit-content;
+    transition:  0.5s;
+}
+#content button:hover{
+    background-color: deepskyblue;
+    color: DarkSlateBlue;
+}
+
+.check{
+    margin-top: 1rem;
+    text-align: right;
+    margin-right: 50%;
+
+}
+#add-text{
+    display: grid;
+    border-style: none;
+    border-bottom-style:groove;
+    border-bottom-color: MidnightBlue;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: auto; 
+    font-size: large;
+    font-weight: 700;
+    transition: 0.5s;
+    outline: none;
+}
+
+ 
+#score{
+    color: antiquewhite;
+    padding: 3px;
+    text-align: center;
+    width: fit-content;
+    font-weight: 700;
+    margin: 1rem auto 2px;
+}
+#timer{
+    color: antiquewhite;
+    margin:0.5rem auto;
+    padding: 3px;
+    text-align: center;
+    width: fit-content;
+    font-weight: 700;
+}
+.keyboard{
+    border:none ;
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: -3px -3px 6px white,
+                3px 3px 6px black ;
+    margin: 4rem auto;
+    padding: 10px 15px 10px 15px;
+}
+#row{
+    font-weight: 600;
+    font-size: 35px; 
+    color: whitesmoke;
+    display: flex;
+    place-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    gap: 20px;
+}
+#row span{
+    place-content: center;
+    display: grid;
+    border-radius: 7px;
+    box-shadow:-3px -3px 6px white,
+             3px 3px 6px black;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
